@@ -65,22 +65,93 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-.container {
-	width: 850px;
-	margin: auto;
+* {
+	font-size: medium;
+}
+
+body {
+	width: 900px;
+	margin: 0 auto;
+	box-sizing: border-box;
 }
 
 header {
 	margin-top: 30px;
 }
+
 header nav {
-	display: inline-block
+	display: inline-block;
+	margin-bottom: 70px;
 }
 
 header nav a {
 	margin: 0 20px;
+	text-decoration: none;
+	color: black;
 }
 
 header img {
 	margin-left: 80px;
+}
+
+h1 {
+	font-size: 300%
+}
+
+h3 {
+	font-size: 150%;
+}
+
+.button {
+	margin-right: 200px
+}
+
+.middle-img {
+	padding: 40px 0;
+}
+
+.demand {
+	display: inline-block;
+	margin-bottom: 100px;
+	vertical-align: 100px;
+	margin-left: 60px;
+	text-align: center;
+}
+
+.innovation {
+	margin-right: 200px;
+	
+}
+
+.upper {
+	display: inline;
+	border: 1px solid black;
+}
+
+.upper p {
+	width: 40%;
+	margin-bottom: 20px;
+}
+
+
+.lower {
+	display: inline;
+}
+
+.lower p {
+	width: 30%;
+	margin-bottom: 20px;	
+}
+
+.address {
+	line-height: 20px;
+}
+
+.contact {
+	line-height: 40px;
+}
+
+.footer {
+	text-align: center;
+	padding: 30px;
 }
