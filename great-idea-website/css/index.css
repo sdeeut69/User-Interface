@@ -95,7 +95,7 @@ header img {
 }
 
 h1 {
-	font-size: 300%
+	font-size: 400%
 }
 
 h3 {
@@ -103,43 +103,59 @@ h3 {
 }
 
 .button {
-	margin-right: 200px
+	display: inline-block;
+}
+
+.button:hover {
+	background: lightblue;
+}
+
+.line {
+	margin: 50px 0;
+}
+
+.top {
+	position: relative;
+}
+.top div{
+	display: inline-block;
+	width: 30%;	
+}
+
+.innovation {
+	margin-right: 200px;
+	display: inline-block;
+	margin-bottom: 100px;
+	vertical-align: 100px;
+	margin-left: 60px;
+	text-align: center;	
+}
+
+.upper {
+	position: relative;
+}
+.upper div{
+	display: inline-block;
+	width: 49%;	
+}
+
+.upper p {
+	width: 90%;
+	margin-bottom: 20px;
 }
 
 .middle-img {
 	padding: 40px 0;
 }
 
-.demand {
-	display: inline-block;
-	margin-bottom: 100px;
-	vertical-align: 100px;
-	margin-left: 60px;
-	text-align: center;
-}
-
-.innovation {
-	margin-right: 200px;
-	
-}
-
-.upper {
-	display: inline;
-	border: 1px solid black;
-}
-
-.upper p {
-	width: 40%;
-	margin-bottom: 20px;
-}
-
 
 .lower {
-	display: inline;
+	position: relative;
 }
 
-.lower p {
-	width: 30%;
+.lower div {
+	display: inline-block;
+	width: 29%;
 	margin-bottom: 20px;	
 }
 
