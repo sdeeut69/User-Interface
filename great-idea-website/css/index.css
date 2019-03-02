@@ -70,43 +70,55 @@ h1, h2, h3, h4, h5 {
 }
 
 body {
-	width: 900px;
+	width: 876px;
 	margin: 0 auto;
 	box-sizing: border-box;
 }
 
 header {
 	margin-top: 30px;
+	display: relative;
+	
+}
+
+header div {
+	display: inline-block;
+	
+}
+
+header div:last-child {
+	vertical-align: -10px
 }
 
 header nav {
 	display: inline-block;
-	margin-bottom: 70px;
+	margin-bottom: 50px;
 }
 
 header nav a {
-	margin: 0 20px;
+	margin: 0 23px;
 	text-decoration: none;
-	color: black;
+	color: rgb(126, 80, 80);
 }
 
-header img {
-	margin-left: 80px;
-}
-
-h1 {
-	font-size: 400%
+.logo {
+	margin-left: 50px;
 }
 
 h3 {
 	font-size: 150%;
 }
 
-.button {
-	display: inline-block;
+.get-started-button {
+	margin: 0 30%;
+	vertical-align: 50px;
+	width: 150px;
+	background: none;
+	border: 1px solid black;
+	padding: 5px;	
 }
 
-.button:hover {
+.get-started-button:hover {
 	background: lightblue;
 }
 
@@ -117,16 +129,18 @@ h3 {
 .top {
 	position: relative;
 }
+
 .top div{
 	display: inline-block;
-	width: 30%;	
+	width: 49%;	
 }
 
+
+
 .innovation {
-	margin-right: 200px;
+	font-size: 450%;
 	display: inline-block;
-	margin-bottom: 100px;
-	vertical-align: 100px;
+	vertical-align: 25px;
 	margin-left: 60px;
 	text-align: center;	
 }
@@ -134,9 +148,10 @@ h3 {
 .upper {
 	position: relative;
 }
+
 .upper div{
 	display: inline-block;
-	width: 49%;	
+	width: 49.5%;	
 }
 
 .upper p {
@@ -155,7 +170,7 @@ h3 {
 
 .lower div {
 	display: inline-block;
-	width: 29%;
+	width: 33%;
 	margin-bottom: 20px;	
 }
 
